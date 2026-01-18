@@ -22,7 +22,7 @@
 
 <body class="font-['Playfair_Display']">
 
-  <header class="bg-[url('./image/Hero_bg.png')] bg-cover min-h-dvh flex flex-col relative ">
+  <header class="bg-[url('./image/Hero_bg.png')] bg-cover bg-top min-h-dvh flex flex-col relative ">
     <div class=" absolute inset-0 bg-gradient-to-r from-black/80 via-black/40  to-black/10 "> </div>
 
 
@@ -67,18 +67,18 @@
   <main>
     <section class="mt-10  px-3   lg:px-12 xl:px-16">
       <div
-        class="  px-5 text-start   flex flex-col justify-start items-start md:flex-row md:justify-between  md:items-center  ">
+        class="  px-5   flex flex-col justify-start items-start md:flex-row md:justify-between  md:items-center  ">
         <article class="space-y-6 h-full max-w-lg">
           <h2 class="text-[#603809] font-bold capitalize text-2xl md:text-4xl">Baro bunka ugu fiican</h2>
-          <p class="max-w-sm leading-relaxed font-thin text-[0.8rem] capitalize text-gray-700 ">Bar Bun waa madal kuu
+          <p class="max-w-[27rem] leading-relaxed font-thin text-sm capitalize text-gray-700  ">Baar Bun waa madal kuu
             diyaarisay bun tayo leh oo kor u qaada wax-qabadkaaga, dhisana niyaddaada. Inaad koob bun ah cabto waa wax
-            san, laakiin inaad koob bun dhab ah ka cabto Bar Bun waa wax ka sii weyn. Shaki kuma jiro inaad ku raaxaysan
+            san, laakiin inaad koob bun dhab ah ka cabto Baar Bun waa wax ka sii weyn. Shaki kuma jiro inaad ku raaxaysan
             doonto bunkan si ka duwan kuwii aad horay u dhadhamisay.</p>
           <a class="w-fit inline-block  hover:text-[#F9C06A] hover:font-bold   hover:bg-[#603809]  hover:rounded-full transition-colors duration-300 px-5 py-2  bg-[#F9C06A]  text-black rounded-full "
             href="#">Learn More</a>
         </article>
         <figure class="h-full">
-          <img class="w-full h-full bg-cover" src="./image/Mask group.png" alt="">
+          <img class="w-full h-full object-cover" src="./image/Mask group.png" alt="">
 
 
         </figure>
@@ -86,10 +86,11 @@
 
 
     </section>
-    <section class="relative pt-4 mt-[5.7rem] flex flex-col items-center  px-3   lg:px-12 xl:px-16">
+    <section class="relative pt-4 mt-[5.7rem] flex flex-col items-center space-y-5  px-3   lg:px-12 xl:px-16">
+     ]
       <figure>
         <img
-          class="absolute -left-48 -top[12rem] sm:-left-10 sm:-top-[13rem] md:-left-36 md:-top-48 lg:-left-10 lg:-to[13rem]"
+          class="absolute -left-48 -top[12rem] sm:-left-10 sm:-top-[13rem] md:-left-36 md:-top-48 lg:-left-10 lg:-top-[13rem]"
           src="./image/postion1.png" alt="">
       </figure>
       <h2 class="text-[#603809] font-bold text-2xl capitalize hideen md:flex  md:text-4xl">kaalay oo Ku baashaal bun
@@ -99,24 +100,99 @@
       </h2>
       <p class="text-gray-700 text-sm text-center">Baadh Bilicda Bunka Mar walba koob mudan Maamuus iyo Midab cusub</p>
 
-      <div>
-        <div>
-          <figure>
-            <img src="./image/img1.png" alt="">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 justify-items-center items-center text-center gap-6 ">
+        <div
+          class="flex flex-col items-center border border-[#F9C06A] bg-[#ffeed8]   hover:bg-[#d5ab73bf] hover:scale-105 transition-all duration-300 ease-in-out  space-y-2  relative pb-7 ">
+          <figure class="">
+            <img class=" object-cover" src="./image/img1.png" alt="">
 
           </figure>
-          <article>
-            <h5 class="text-[#603809]">Cappuccino</h5>
-            <p>Coffee 50% | Milk 50%</p>
-            <p class="text-[#603809]">$8.50</p>
+          <article class="">
+            <h5 class="text-[#603809] text-xl font-bold">Cappuccino</h5>
+            <p class="text-gray-700 ">Coffee 50% | Milk 50%</p>
+            <p class="text-[#603809] text-xl font-bold">$8.50</p>
+
+
 
           </article>
+
+          <a class="inline-block hover:text-black hover:font-semibold hover:bg-[#ffeed8] hover:border-2 hover:border-[#F9C06A] hover:rounded-3xl px-3 py-2 bg-[#F9C06A] text-black rounded-3xl absolute -bottom-5"
+            href="#">Hadda dalbo</a>
+
+
+
         </div>
+         <div class="flex flex-col items-center border border-[#F9C06A] bg-[#ffeed8]   hover:bg-[#d5ab73bf] hover:scale-105 transition-all duration-300 ease-in-out  space-y-2  relative pb-7 ">
+          <figure class="">
+            <img class=" object-cover" src="./image/img1.png" alt="">
+
+          </figure>
+          <article class="">
+            <h5 class="text-[#603809] text-xl font-bold">Cappuccino</h5>
+            <p class="text-gray-700 ">Coffee 50% | Milk 50%</p>
+            <p class="text-[#603809] text-xl font-bold">$8.50</p>
+           
+           
+
+          </article>
+          
+              <a class="inline-block hover:text-black hover:font-semibold hover:bg-[#ffeed8] hover:border-2 hover:border-[#F9C06A] hover:rounded-3xl px-3 py-2 bg-[#F9C06A] text-black rounded-3xl absolute -bottom-5"
+          href="#">Hadda dalbo</a>
+    
+           
+            
+      </div>
+
+ <div class="flex flex-col items-center border border-[#F9C06A] bg-[#ffeed8]   hover:bg-[#d5ab73bf] hover:scale-105 transition-all duration-300 ease-in-out  space-y-2  relative pb-7 ">
+          <figure class="">
+            <img class=" object-cover" src="./image/img1.png" alt="">
+
+          </figure>
+          <article class="">
+            <h5 class="text-[#603809] text-xl font-bold">Cappuccino</h5>
+            <p class="text-gray-700 ">Coffee 50% | Milk 50%</p>
+            <p class="text-[#603809] text-xl font-bold">$8.50</p>
+           
+           
+
+          </article>
+          
+              <a class="inline-block hover:text-black hover:font-semibold hover:bg-[#ffeed8] hover:border-2 hover:border-[#F9C06A] hover:rounded-3xl px-3 py-2 bg-[#F9C06A] text-black rounded-3xl absolute -bottom-5"
+          href="#">Hadda dalbo</a>
+    
+           
+            
+      </div>
+
+
+       <div class="flex flex-col items-center border border-[#F9C06A] bg-[#ffeed8]   hover:bg-[#d5ab73bf] hover:scale-105 transition-all duration-300 ease-in-out  space-y-2  relative pb-7 ">
+          <figure class="">
+            <img class="wh-full h-auto object-cover" src="./image/img1.png" alt="">
+
+          </figure>
+          <article class="">
+            <h5 class="text-[#603809] text-xl font-bold">Cappuccino</h5>
+            <p class="text-gray-700 ">Coffee 50% | Milk 50%</p>
+            <p class="text-[#603809] text-xl font-bold">$8.50</p>
+           
+           
+
+          </article>
+          
+              <a class="inline-block hover:text-black hover:font-semibold hover:bg-[#ffeed8] hover:border-2 hover:border-[#F9C06A] hover:rounded-3xl px-3 py-2 bg-[#F9C06A] text-black rounded-3xl absolute -bottom-5"
+          href="#">Hadda dalbo</a>
+    
+           
+            
       </div>
 
 
 
+
+
+      </div>
     </section>
+
 
 
 
